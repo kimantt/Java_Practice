@@ -1,4 +1,4 @@
-package genericCollection.sec08;
+package genericCollection.sec09;
 
 import java.util.LinkedList;
 
@@ -11,9 +11,9 @@ public class ProductMain {
 		LinkedList<Product> productList = new LinkedList<Product>();
 		
 		// 상품 정보 저장
-		productList.add(new Product("자동차", "아반떼", 30000000));
-		productList.add(new Product("스마트폰", "갤럭시 S20", 1000000));
-		productList.add(new Product("에어컨", "휘센", 2000000));
+		productList.add(new Product(1000, "마우스", 20000));
+		productList.add(new Product(1001, "키보드", 80000));
+		productList.add(new Product(1002, "모니터", 220000));
 		
 		// 전체 상품 정보 출력
 		for (Product prd : productList)
