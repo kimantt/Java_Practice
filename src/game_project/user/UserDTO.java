@@ -8,6 +8,8 @@ public class UserDTO {
 	private String pass;
 	private String name;
 	
+	public UserDTO() {}
+	
 	public UserDTO(String id, String pass, String name) {
 		this.id = id;
 		this.pass = pass;
